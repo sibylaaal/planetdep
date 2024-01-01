@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('./static/ReadexPro-Light.ttf') format('truetype');
+    /* You can also define other font properties like font-weight and font-style here if needed */
+  }
+  *{
+    font-family: 'Readex Pro', sans-serif; /* Apply Readex Pro font to the body */
+  }
+.navbar{
+    background-color: black;
+    padding-inline: 60px;
+    border-bottom: 1px solid gray;
+}
+/* Centering the video container within the section */
+.vd {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh; /* Adjust the height as needed */
+    /* Additional styling for the section if necessary */
+  }
+  
+  /* Adjust video container width */
+
+
+  .carousel-item img{
+    height: 40vw;
+    width: 80vw;
+
+  }
+  /* Style the video element */
+  .video-container video {
+    max-width:100%; /* Ensure the video doesn't overflow its container */
+    height: 500px; /* Allow the video's height to adjust proportionally */
+  }
+  
+.nav-link:hover{
+    color: #00acac;
+
+}
+.nav-link{
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+.p{
+    font-weight: 400;
+    color: #2d353c;
+  
+}
+h2{
+    font-weight: 700;
+    color: #2d353c;
+ 
+}
+h3{
+    font-weight: 800;
+    margin-right: 2vw;
+    color: #2d353c;
+ 
+}
+.caro{
+  padding: 20px;
+  background-color: black;
+}
+.line {
+    border-bottom: 3px solid #2d353c ; /* Adjust the color and thickness as needed */
+    width: 50px; /* Adjust the width of the line */
+    margin: 0 auto; /* Center the line horizontally */
+  }
+
+.logo {
+    width: 17%; /* Default width */
+    height: 17%; /* Default height */
+  }
+  
+
+  .t6{
+    width: 70%;
+    font-size: 30px;
+    padding: 9px;
+    margin-bottom: 5vw;
+    font-weight: 900;
+    text-align: center;
+  }
+  .t7{
+    width: 70%;
+    font-size: 30px;
+    padding: 9px;
+    margin-bottom: 5vw;
+    direction: rtl;
+    font-weight: 900;
+    text-align: center;
+  }
+  .smw{
+    font-size: 22px;
+  }
+  .centered-arabic-text {
+    text-align: start;
+    direction: rtl; /* Right-to-left direction for Arabic */
+  }
+  .centered-english-text {
+    text-align: start;
+
+    direction: ltr; /* Right-to-left direction for Arabic */
+  }
+  .l{
+    margin-left: 50px;
+  }
+  .ratings .far{
+
+    color: orange;
+   }
+   
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .carousel-item img{
+      height: 70vw;
+      width: 100vw;
+  
+    }
+   .vd{
+    height: 100vh;
+   }
+    
+    .ps{
+    margin-left: -5px;
+    font-size: 20px;
+   }
+
+    .centered-english-text {
+      text-align: start;
+       margin-left: 10vw;
+      direction: ltr; /* Right-to-left direction for Arabic */
+    }
+.cmobile{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  margin-left: 9vw;
+}
+    .l{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+    }
+.t6{
+  font-size: 24px;
+  width: 100vw;
+  margin-bottom: -50px;
+  font-weight: 900;
+  margin-top: 0px;
+  text-align:end
+
+}
+.t7{
+  font-size: 24px;
+  width: 100vw;
+  direction: rtl;
+
+  margin-bottom: -50px;
+  font-weight: 900;
+  margin-top: 30px;
+  text-align:end
+
+}
+      
+     
+      
+
+    .logo {
+      width: 60%; /* Adjust the width for smaller screens */
+      height: auto; /* Allow height to adjust proportionally */
+    }
+    .section3 {
+        display: flex;
+height: 400px;
+flex-direction: column;
+    }
+
+    .box1 {
+  
+        border: 0px;
+        border-bottom: 1px solid #2d353c; /* Border right */
+      
+      }
+  
+ 
+} 
+
+
+
+.black{
+    background-color: black;
+}
+.font-bold{
+    font-weight: 800;
+}
+.sub1{
+    background-color: #00acac;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+}
+.sub2{
+    background-color: #2d353c;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+.c1{
+    background-color: #ffffff;
+    color: white;
+}
+.b1{
+    background-color: #ffffff;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.span{
+    margin-top: 30px;
+    padding: 10px ;
+    color: #00acac;
+    font-weight: 900;
+}
+.rounded{
+    border-radius: 50%;
+}
+.itsm  {
+    background-color: black;
+}
+.image2{
+    padding: 20px;
+    width: 100%;
+}
+    .circle-background {
+        width: 40px; /* Adjust the circle size */
+        height: 40px; /* Adjust the circle size */
+        background-color: #333; /* Dark background color */
+        border-radius: 50%; /* Make a circular shape */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        padding: 10px; /* Adjust margin as needed */
+      }
+      .h1{
+        color: white;
+        font-weight: 900;
+      }
+   
+      /* Style for heart icon inside the circle */
+      .heart-inside {
+        color: white; /* Heart icon color */
+      }
+
+.fa-clock,.fa-door-open,.fa-graduation-cap,.fa-mug-hot,.fa-couch{
+  color: white;
+}
+      .section3 {
+        height:250px;
+        background-color: black;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+      }
+      
+      .box1 {
+        height: 3%;
+        flex: 1;
+        padding: 20px;
+        border-right: 1px solid #2d353c; /* Border right */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      /* Adjust the size of the border-right */
+      .section3 .box1:last-child {
+        border-right-width: 0.5px; /* Thin border on the last box */
+      }
+      
+   
